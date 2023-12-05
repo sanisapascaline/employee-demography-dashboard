@@ -155,8 +155,6 @@ col6.write(f'### Gender per Department, Age {min_slider} to {max_slider}')
 col6.write("Interactive slider chart to explore gender representation across age groups in various departments, supporting equitable HR practices and diversity.")
 col6.plotly_chart(plot_dept, use_container_width=True)
 
-# Divider
-st.divider()
 
 # # --- NEW VISUALIZATION: Geographical Distribution of Departments ---
 # st.markdown('### Geographical Distribution of Departments')
